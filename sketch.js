@@ -57,27 +57,27 @@ function draw() {
     }
   }
 
-  var select_balloon = Math.round(random(1,1));
+  var select_balloon = Math.round(random(1,2));
   
   if (World.frameCount % 100 == 0) {
-    if (select_balloon == 1) {
+    if (select_balloon == 2) {
       blueBalloon();
     }
   }
 
 
-  var select_balloon = Math.round(random(1,1));
+  var select_balloon = Math.round(random(1,3));
   
   if (World.frameCount % 100 == 0) {
-    if (select_balloon == 1) {
+    if (select_balloon == 3) {
       greenBalloon();
     }
   }
 
-  var select_balloon = Math.round(random(1,1));
+  var select_balloon = Math.round(random(1,4));
   
   if (World.frameCount % 100 == 0) {
-    if (select_balloon == 1) {
+    if (select_balloon == 4) {
       pinkBalloon();
     }
   }
